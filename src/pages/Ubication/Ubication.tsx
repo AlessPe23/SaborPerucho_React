@@ -4,9 +4,9 @@ import React from "react";
 const Ubication = () => {
   return (
     <>
-      <div className="bg-fondoUbication h-fit bg-cover pt-48 pb-4 max-sm:pt-20">
+      <div className="bg-fondoUbication h-fit bg-cover pt-48 pb-4 max-sm:pt-20 ">
         <div className="container mx-auto">
-          <p className="text-center text-3xl  font-bold text-red-800">
+          <p className="text-center text-3xl font-bold text-red-800">
             ENCUÉNTRANOS!
           </p>
           <div className="relative flex flex-col items-center gap-4 justify-center my-4 max-sm:gap-2 ">

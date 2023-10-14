@@ -68,7 +68,7 @@ const Footer = () => {
                       <ul>
                         <li className="text-white hover:underline hover:cursor-pointer flex items-center gap-2 max-lg:justify-center">
                           <LocationOnIcon />{" "}
-                          <a href="https://maps.app.goo.gl/rnLJGUBuf4fKUPND8">
+                          <a href="https://www.google.com/maps?ll=-14.058852,-75.728813&z=16&t=m&hl=es-419&gl=PE&mapclient=embed&q=C.+Castrovirreyna+478+Ica+11002">
                             Calle Castrovirreyna 480 (Frente de Emapica)
                           </a>
                         </li>
