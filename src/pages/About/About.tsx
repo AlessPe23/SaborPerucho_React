@@ -43,7 +43,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="bg-fondoAboutCenter h-screen pt-12 bg-cover max-sm:bg-fondoAboutCenter  max-sm:w-full max-sm:h-[220px]"></div>
+      <div className="bg-fondohorno h-screen pt-12 bg-cover max-sm:bg-fondoAboutCenter  max-sm:w-full max-sm:h-[220px]"></div>
       <div className="py-4 flex flex-col gap-4 bg-white">
         <h3 className="text-center font-bold text-3xl max-sm:text-3xl ">
           NUESTROS VALORES
@@ -113,5 +113,4 @@ const About = () => {
     </>
   );
 };
-
 export default About;

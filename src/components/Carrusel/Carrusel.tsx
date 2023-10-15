@@ -11,6 +11,7 @@ type SlidesProps = {
   id: number;
   src: string;
   alt: string;
+
 };
 interface CarruselProps {
   slides: SlidesProps[];
@@ -54,6 +55,7 @@ const Carrusel = ({ slides }: CarruselProps) => {
             className="w-[100%]"
               src={src}
               alt={alt}
+
             />
           )}
         </SwiperSlide>
