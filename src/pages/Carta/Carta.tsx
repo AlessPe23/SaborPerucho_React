@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 const Carta = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center px-36">
-      <h1 className="text-3xl font-bold mb-4">CARTA SABOR PERUCHO</h1>
+      <h1 className="mt-40 text-3xl font-bold mb-4">CARTA SABOR PERUCHO</h1>
       <h2 className="text-2xl mb-4 border-b-2 border-gray-300">
         POLLOS A LA BRASA
       </h2>
