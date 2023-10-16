@@ -5,7 +5,7 @@ import { linksNavar } from "../../helpers";
 const Navbar = () => {
   return (
     <>
-      <header className="absolute w-full z-10  max-sm:absolute max-sm:top-4  bg-gray-300">
+      <header className="sticky top-0 w-full z-10  max-sm:absolute max-sm:top-4  bg-gray-300">
         <div className="container mx-auto ">
           <nav className="flex justify-between px-16">
             <Link to="/">

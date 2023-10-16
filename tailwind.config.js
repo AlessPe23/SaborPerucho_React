@@ -5,7 +5,8 @@ export default {
     extend: {
       backgroundImage:{
         'fondo1':"url('/public/fondosabor.jpg')",
-        'fondohorno':"url('/public/horno.jpg')"
+        'fondohorno':"url('/public/horno.jpg')",
+        'fondoabout':"url('/public/madera-fondo.avif')"
       }
     },
   },

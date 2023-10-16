@@ -7,27 +7,27 @@ import { Link, NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div>
-        <section className=" bg-slate-50  py-20 ">
-          <div className=" container mx-2 mt-20">
-            <div className="flex items-center justify-center flex-col gap-8">
+      
+        <section className=" bg-stone-400  py-10 ">
+          <div className=" container mx-0">
+            <div className="flex items-center justify-center flex-col gap-8 w-[115rem]">
               <Carrusel slides={info} />
             </div>
           </div>
         </section>
-      </div>
+      
 
-      <div className="py-2 flex flex-col gap-4 bg-white ">
-        <h3 className="text-center font-bold text-3xl max-sm:text-3xl p-2">
+      <div className="py-14 flex flex-col gap-7 bg-white ">
+        <h3 className="text-center font-extrabold text-3xl max-sm:text-3xl p-2">
           Hambre? dinos cual es tu hambre
         </h3>
         <div className="py-8 flex max-sm:flex-col items-center justify-center gap-8 max-sm:gap-10 max-sm:mx-4 ">
-          <div className="hover:cursor-pointer relative group border-8 border-yellow-200">
+          <div className="hover:cursor-pointer hover:rounded-2xl relative group border-8 border-yellow-200 rounded-xl">
             <div className="relative">
               <img
                 src="/personal.jpg"
                 alt="BG"
-                className="rounded-md w-[24rem] max-sm:w-72 transition-opacity duration-300 h-[18rem] border"
+                className="w-[24rem] max-sm:w-72 transition-opacity duration-300 h-[18rem] rounded-lg"
               />
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
             </div>
@@ -47,7 +47,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="hover:cursor-pointer relative group border-yellow-200 border-8">
+          <div className="hover:cursor-pointer relative group border-yellow-200 border-8 rounded-xl">
             <div className="relative">
               <img
                 src="/parados.jpg"
@@ -71,8 +71,8 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="hover:cursor-pointer relative group border-yellow-200 border-8">
-            <div className="relative">
+          <div className="hover:cursor-pointer relative group border-yellow-200 border-8 rounded-xl">
+            <div className="relative rounded-xl">
               <img
                 src="/familiares.jpg"
                 alt="BG"

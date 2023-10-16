@@ -30,7 +30,7 @@ const Carrusel = ({ slides }: CarruselProps) => {
         clickable: true,
       }}
       modules={[Autoplay, Pagination, Navigation, A11y]}
-      className="mySwiper relative group left-40"
+      className="mySwiper relative group left-10"
       navigation={{
         nextEl: ".button-next-slide",
         prevEl: ".button-prev-slide",
