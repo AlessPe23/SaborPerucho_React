@@ -26,6 +26,14 @@ export const info = [
   { id: 5, src: "Turron.jpg", alt: "quintoimg" },
   { id: 6, src: "desayuno1.jpg", alt: "siximg" },
 ];
+export const info2 = [
+  { id: 1, src: "pollomascuarto.png", alt: "primerimagen" },
+  { id: 2, src: "desayuno.jpg", alt: "segundaimagen" },
+  { id: 3, src: "info1.jpg", alt: "tercerimagen" },
+  { id: 4, src: "prom1.jpg", alt: "cuartoimg" },
+  { id: 5, src: "Turron.jpg", alt: "quintoimg" },
+  { id: 6, src: "desayuno1.jpg", alt: "siximg" },
+];
 export const Combos = [
   { id: 1, src: "personal.jpg", alt: "primerimagen",to:"/Carta" },
   { id: 2, src: "parados.jpg", alt: "segundaimagen",to:"/Carta" },

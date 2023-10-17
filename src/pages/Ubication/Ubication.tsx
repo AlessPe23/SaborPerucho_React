@@ -4,12 +4,12 @@ import React from "react";
 const Ubication = () => {
   return (
     <>
-      <div className="bg-fondoUbication h-fit bg-cover pt-48 pb-4 max-sm:pt-20 ">
+      <div className="bg-ubicacion bg-opacity-0 h-fit bg-cover pt-20 pb-4 max-sm:pt-20 ">
         <div className="container mx-auto">
           <p className="text-center text-3xl font-bold text-red-800">
             ENCUÉNTRANOS!
           </p>
-          <div className="relative flex flex-col items-center gap-4 justify-center my-4 max-sm:gap-2 ">
+          <div className="relative flex flex-col items-center gap-4 justify-center my-8 max-sm:gap-2 ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.310187060732!2d-75.73138782535615!3d-14.058851686365776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bba403044f%3A0x5a0e747096b89b49!2sC.%20Castrovirreyna%20478%2C%20Ica%2011002!5e0!3m2!1ses-419!2spe!4v1697140677308!5m2!1ses-419!2spe"
               width="800"
@@ -30,7 +30,7 @@ const Ubication = () => {
                 Llevame
               </Button>
             </a>
-            <div className="flex flex-col items-center justify-center gap-2 my-4 max-sm:items-center max-sm:justify-center font-Itim">
+            <div className="flex flex-col items-center justify-center gap-2 mt-12 max-sm:items-center max-sm:justify-center font-Itim">
               <h3 className="text-3xl font-bold max-sm:text-center max-sm:mb-4">
                 SABOR PERUCHO
               </h3>
