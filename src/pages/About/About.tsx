@@ -21,8 +21,8 @@ const About = () => {
       </div>
       <div className="container mx-auto relative flex justify-center max-sm:mx-auto max-sm:relative max-sm:justify-center">
         {/* Mision | Vision */}
-        <div className="bg-slate-950 text-white p-8 flex  gap-4 w-[850px] mx-auto absolute top-1/2 transform -translate-y-1/2 drop-shadow-xl max-sm:p-4 max-sm:flex-col max-sm:gap-2 max-sm:w-[340px] max-sm:h-[250px] max-sm:mx-auto max-sm:absolute max-sm:top-0.5 max-sm:transform max-sm:-translate-y-[30%] shadow-lg
-                rounded-md shadow-sky-900">
+        <div className="bg-slate-950 text-white p-8 flex  gap-4 w-[850px] mx-auto absolute top-1/2 transform -translate-y-1/2 drop-shadow-2xl max-sm:p-4 max-sm:flex-col max-sm:gap-2 max-sm:w-[340px] max-sm:h-[250px] max-sm:mx-auto max-sm:absolute max-sm:top-0.5 max-sm:transform max-sm:-translate-y-[30%] shadow-lg
+                rounded-xl shadow-slate-500">
           <div className="flex flex-col items-center justify-center gap-2 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-1">
             <h2 className="text-3xl font-bold max-sm:text-xs max-sm:font-bold">
               Misión
@@ -47,14 +47,14 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="bg-fondohorno h-screen pt-64 bg-cover max-sm:bg-fondoAboutCenter  max-sm:w-full max-sm:h-[220px]">
+      <div className="bg-stone-300 h-screen pt-64 bg-cover max-sm:bg-fondoAboutCenter  max-sm:w-full max-sm:h-[220px]">
       <div className=" flex flex-col gap-4 justify-center items-center">
-        <div className=" flex items-center justify-center  bg-slate-200 w-[30rem] rounded-2xl shadow-orange-300 shadow-lg ">
+        <div className=" flex items-center justify-center  bg-slate-200 w-[30rem] rounded-2xl shadow-orange-300 shadow-lg drop-shadow-2xl ">
         <h3 className="text-center font-bold text-3xl max-sm:text-3xl py-10 ">
           NUESTROS VALORES
         </h3>
         </div>
-        <div className="flex max-sm:flex-col items-center justify-center gap-8 max-sm:gap-10 max-sm:mx-4 py-10 ">
+        <div className="flex max-sm:flex-col items-center justify-center gap-8 max-sm:gap-10 max-sm:mx-4 py-20 ">
           <div className="hover:cursor-pointer relative group rounded-5xl">
             <div className="relative shadow-lg shadow-orange-300 rounded-xl">
               <img
@@ -64,9 +64,9 @@ const About = () => {
               />
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 "></div>
             </div>
-            <div className=" absolute top-0 left-0 p-4 opacity-0 group-hover:opacity-100 transition-all text-white flex flex-col items-center justify-center">
-              <span className="font-bold text-4xl p-4">Ser Proactivos</span>
-              <p className="font-medium text-2xl">
+            <div className=" absolute top-0 left-0 p-8 opacity-0 group-hover:opacity-100 hover:scale-105  transition-all text-white flex flex-col items-center justify-center">
+              <span className="font-medium = (second) => {third} text-4xl p-4">Ser Proactivos</span>
+              <p className="p-3 font-medium text-lg">
                 Teniendo una iniciativa, elaborando un plan de marketing
                 individualizado a cada propiedad. Tratamos de adelantarnos a las
                 situaciones adversas con el único objetivo de ofrecer un
@@ -83,9 +83,9 @@ const About = () => {
               />
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
             </div>
-            <div className="absolute top-0 left-0 p-4 opacity-0 group-hover:opacity-100 transition-all text-white flex flex-col items-center justify-center">
-              <span className="font-bold text-5xl p-4">Pasión</span>
-              <p className="font-medium text-xl">
+            <div className="absolute top-0 left-0 p-6 opacity-0 group-hover:opacity-100 hover:scale-105 transition-all text-white flex flex-col items-center justify-center">
+              <span className="font-bold = (second) => {third} text-4xl p-4">Pasión</span>
+              <p className="font-medium text-lg p-3">
                 Disfrutamos de nuestro trabajo, contando con expertos en la
                 materia, dedicados con nuestra labor intermediaria para lograr
                 sacar el mayor rendimiento de nuestras propiedades para
@@ -103,8 +103,8 @@ const About = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
             </div>
             <div className="absolute top-0 left-0 p-4 opacity-0 group-hover:opacity-100 transition-all text-white flex flex-col items-center justify-center">
-              <span className="font-bold text-3xl p-3 ">Profesionalidad</span>
-              <p className="font-medium text-xl">
+              <span className="font-bold = (second) => {third} text-4xl p-4">Profesionalidad</span>
+              <p className="font-medium text-lg p-3">
                 Siempre te ofreceremos soluciones, lo hacemos desde el
                 conocimiento técnico de la materia. Trabajamos con propiedades
                 con alto potencial por lo que la exigencia en el servicio debe

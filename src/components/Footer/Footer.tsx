@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-slate-400 relative ">
+      <footer className="bg-black relative ">
         <div className="container mx-auto py-4 ">
           <div className="grid grid-cols-5 gap-8 pt-2 max-lg:gap-2">
             <div className="col-span-2 max-sm:col-span-5 max-lg:col-span-5">
@@ -83,6 +83,24 @@ const Footer = () => {
               </div>
               <div className="max-sm:w-full max-sm:bg-gray-400 max-sm:h-[0.5px] max-sm:mb-5 max-sm:mt-4"></div>
             </div>
+            <div className="col-span-1">
+            <h2 className="text-xl text-white font-bold">Nuestro Horario de Atencion</h2>
+            <div className="  flex items-center justify-center  bg-opacity-70  ">
+              
+              <div className="flex flex-col items-center justify-center text-base py-3">
+              <div className="text-white   justify-center items-center font-serif italic">
+Lunes-Sabados 
+              <div className="flex items-center justify-center py-2 not-italic text-white">09-am a 11-pm</div>
+              </div>
+              <div className="text-white   justify-center items-center font-serif italic">
+Domingos-Feriados
+              <div className="text-white flex items-center justify-center py-2 not-italic">09-am a 9-pm</div>
+              </div>
+              </div>
+            
+          
+        </div>
+        </div>
           </div>
           <div className="w-full bg-gray-400 h-[0.5px] my-2"></div>
           <div className="container mx-auto flex justify-between items-center text-white max-sm:flex-col">

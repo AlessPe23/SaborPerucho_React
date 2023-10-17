@@ -30,7 +30,7 @@ const Carrusel = ({ slides }: CarruselProps) => {
         clickable: true,
       }}
       modules={[Autoplay, Pagination, Navigation, A11y]}
-      className="mySwiper relative group left-10"
+      className="mySwiper relative group left-0"
       navigation={{
         nextEl: ".button-next-slide",
         prevEl: ".button-prev-slide",
@@ -52,7 +52,7 @@ const Carrusel = ({ slides }: CarruselProps) => {
             </video>
           ) : (
             <img
-            className="w-[100%]"
+            className="w-[100%] h-[40rem]"
               src={src}
               alt={alt}
 
@@ -60,10 +60,10 @@ const Carrusel = ({ slides }: CarruselProps) => {
           )}
         </SwiperSlide>
       ))}
-      <div className="top-[50%] absolute z-10 button-prev-slide left-0 duration-500 w-[40px] h-[40px] text-3xl text-white bg-black grid place-items-center">
+      <div className="top-[50%] absolute z-10 button-prev-slide left-32 duration-500 w-[50px] h-[50px] text-5xl text-white bg-black grid place-items-center">
         <RiArrowLeftCircleLine />
       </div>
-      <div className="top-[50%] absolute z-10 button-next-slide right-0 duration-500 w-[40px] h-[40px] text-3xl text-white bg-black grid place-items-center">
+      <div className="top-[50%] absolute z-10 button-next-slide right-32 duration-500 w-[50px] h-[50px] text-5xl text-white bg-black grid place-items-center">
         <RiArrowRightCircleLine />
       </div>
     </Swiper>

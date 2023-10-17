@@ -5,7 +5,7 @@ import { linksNavar } from "../../helpers";
 const Navbar = () => {
   return (
     <>
-      <header className="sticky top-0 w-full z-10  max-sm:absolute max-sm:top-4  bg-gray-300">
+      <header className="sticky top-0 w-full z-10  max-sm:absolute max-sm:top-4  bg-black">
         <div className="container mx-auto ">
           <nav className="flex justify-between px-16">
             <Link to="/">
@@ -26,8 +26,8 @@ const Navbar = () => {
                         ? "font-bold"
                         : isPending
                         ? "underline"
-                        : "text-slate-700"
-                    } relative rounded-lg px-3.5 py-2 text-black font-bold hover:bg-slate-600 hover:text-white max-sm:py-0.5 max-sm:px-1.5 max-sm:text-xs
+                        : "text-slate-300"
+                    } relative rounded-lg px-3.5 py-2 text-slate-300 font-bold hover:bg-slate-600 hover:text-white max-sm:py-0.5 max-sm:px-1.5 max-sm:text-xs
                   `
                   }
                 >
